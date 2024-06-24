@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 10px; 
+    background-color: black;
+}
+
+.logo {
+    margin-left: 99px;
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+
+.flex-container {
+    display: flex;
+    margin-right: 70px;
+    gap: 40px;
+}
+
+.flex-container a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.flex-container a:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+.fa-bars {
+    display: none !important;
+    font-size: 20px;
+    color: #636060; 
+} 
