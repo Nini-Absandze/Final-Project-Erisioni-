@@ -75,6 +75,10 @@ header {
     color: black;
 }
 
+.third {
+    margin-top: 60px;
+}
+
 .section2 {
     margin-top: 50px;
 }
@@ -161,8 +165,8 @@ h3 {
     font-weight: 700;
     font-style: normal;
     color: white;
-    margin-top: 30px;
-    font-size: 40px;
+    margin-top: 10px;
+    font-size: 20px;
     padding-bottom: 25px;
 }
 
@@ -170,3 +174,67 @@ h3 {
     color: gray;
     cursor: pointer;
 }
+
+.forth {
+    background-color: #010101;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+}
+.aboutus a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    margin-top: 10px;
+    font-size: 40px;
+} 
+
+.boxes2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.box1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    background-color: #3b3b3b;
+    width: 450px;
+    height: 500hv;
+}
+
+.box1 img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    object-fit: cover;
+    margin-left: 10%;
+}
+
+.box1 h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 90.84px;
+    color: white;
+}
+
+.box1 h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21.84px;
+    color: white;
+}
+
