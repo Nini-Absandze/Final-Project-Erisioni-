@@ -93,5 +93,58 @@
     
 }
 
+@media screen and (max-width: 300px) {
+    .box img {
+        width: 80%;
+        height: 195px;
+        object-fit: cover;
+    }
 
+    .box h4 {
+        font-size: 15px;
+    }
+    
+    .box p {
+        font-size: 9px;
+    }
 
+    
+}
+
+@media screen and (max-width: 1350px) {
+    .box1 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        width: 350px;
+        height: 400hv;
+    } 
+}
+
+@media screen and (max-width: 1050px) {
+    .box1 {
+        margin-top: 25px;
+        width: 250px;
+        height: 300hv;
+    } 
+}
+
+@media screen and (max-width: 750px) {
+    .aboutus a {
+        margin-top: 7px;
+        font-size: 30px;
+    } 
+    
+    .boxes2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .box1 {
+        margin-top: 25px;
+        width: 400px;
+        height: 250hv;
+    } 
+}

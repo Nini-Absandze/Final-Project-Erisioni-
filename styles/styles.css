@@ -176,9 +176,6 @@ h3 {
 }
 
 .forth {
-    background-color: #010101;
-    height: 800px;
-    width: 100%;
     display: flex;
     flex-direction: column;
     margin-top: 90px;
@@ -187,10 +184,15 @@ h3 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
-    color: white;
+    color: black;
     margin-top: 10px;
     font-size: 40px;
 } 
+
+.aboutus a:hover{
+    color: #3b3b3b;
+    cursor: pointer;
+}
 
 .boxes2 {
     display: flex;
@@ -237,4 +239,7 @@ h3 {
     line-height: 21.84px;
     color: white;
 }
+
+
+
 
