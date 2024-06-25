@@ -148,3 +148,60 @@
         height: 250hv;
     } 
 }
+
+@media screen and (max-width: 1450px) {
+    
+.left h2 {
+    font-size: 13px;
+}
+
+.left p {
+    font-size: 10px;
+}
+
+.right h2 {
+    font-size: 13px;
+}
+
+.right p {
+    font-size: 10px;
+}
+
+}
+
+@media screen and (max-width: 950px) {
+    
+    .left h2 {
+        font-size: 10px;
+    }
+    
+    .left p {
+        font-size: 7px;
+    }
+    
+    .right h2 {
+        font-size: 10px;
+    }
+    
+    .right p {
+        font-size: 7px;
+    }
+    .cards a {
+    font-size: 13px;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+    .afishebi img  {
+        width: 30%;
+        margin-left: 14px;
+    } 
+}
+
+@media screen and (max-width: 450px) {
+    .afishebi img  {
+        width: 30%;
+        margin-left: 11px;
+    } 
+}

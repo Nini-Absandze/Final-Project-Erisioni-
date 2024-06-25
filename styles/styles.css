@@ -256,11 +256,6 @@ h3 {
     color: white;
 }
 
-.newssection a:hover{
-    color: gray;
-    cursor: pointer;
-}
-
 .cards {
     display: flex;
     justify-content: row;
@@ -331,4 +326,13 @@ h3 {
     font-size: 20px;
     line-height: 90.84px;
     color: white;
+}
+
+.afishebi {
+    margin-top: 20px;
+}
+
+.afishebi img {
+    width: 33%;
+    gap: 5px;
 }
