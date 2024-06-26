@@ -1,3 +1,7 @@
+body {
+    background-color: lightgray;
+}
+
 header {
     display: flex;
     align-items: center; 
@@ -38,8 +42,77 @@ header {
     color: #636060; 
 } 
 
+.contact {
+    padding: 100px;
+}
 
+.contact h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: black;
+    line-height: 16.1px;
+    margin-left: 50px;
+}
 
+.contact p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+    line-height: 16.1px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.forforms {
+    padding-left: 100px;
+}
+.forms {
+    display: inline-block;
+}
+
+form {
+    margin-top: 35px;
+    margin-right: 80px;
+}
+
+h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: black;
+    line-height: 16.1px;
+    margin-left: 50px;
+}
+
+textarea {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.1px;
+    color: black;
+    padding: 15px;
+}
+
+input[type="text"] {
+    width: 300px;
+    height: 60px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: black;
+    line-height: 16.1px;
+    box-sizing: border-box; 
+    margin: 10px 0; 
+    padding: 10px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #3b3b3b;
+}
 
 
 footer {
@@ -87,7 +160,7 @@ footer {
 .right2 h2 {
     font-size: 21px;
     font-family: 'Roboto', sans-serif;
-    color: #3b3b3b;
+    color: white;
     margin-bottom: 30px;
 }
 
@@ -115,12 +188,6 @@ footer {
     color: gray;
    font-family: 'Roboto', sans-serif;
    font-size: 17px;
- }
-
- .navs h4 {
-   font-family: 'Roboto', sans-serif;
-   font-size: 17px;
-   background-color: white;
  }
 
  .navs a:hover {
