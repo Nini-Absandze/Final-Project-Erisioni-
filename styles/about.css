@@ -100,6 +100,9 @@ header {
 .fotoebi {
     margin-left: 100px;
     margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .foto {
@@ -110,6 +113,7 @@ header {
     margin-left: 25px;
     width: 50%;
 }
+
 
 footer {
     margin-top: 20px;

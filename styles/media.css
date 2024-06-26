@@ -464,3 +464,56 @@
         font-size: 30px;
     }
 }
+
+@media screen and (max-width: 1400px) {
+    .fotoebi {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .foto {
+        height: 80vh;
+    } 
+
+    .foto1 {
+        margin-top: 25px;
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width: 1150px) {
+    .fotoebi {
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+    .fotoebi {
+        margin-left: 50px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .foto {
+        height: 50vh;
+    } 
+
+    .foto1 {
+        margin-top: 25px;
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .foto {
+        height: 40vh;
+    } 
+}
+
+}
