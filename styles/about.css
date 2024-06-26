@@ -137,6 +137,11 @@ header {
     margin-right: 150px;
 }
 
+.video {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
 footer {
     margin-top: 20px;
     background-color: black;
