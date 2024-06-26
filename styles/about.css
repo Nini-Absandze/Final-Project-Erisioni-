@@ -97,6 +97,20 @@ header {
     margin-top: 35px;
 }
 
+.fotoebi {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.foto {
+    height: 70vh;
+}
+
+.foto1 {
+    margin-left: 25px;
+    width: 50%;
+}
+
 footer {
     margin-top: 20px;
     background-color: black;
