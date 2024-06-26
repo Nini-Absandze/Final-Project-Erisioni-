@@ -114,6 +114,28 @@ header {
     width: 50%;
 }
 
+.history3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.history3 h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21.84px;
+    width: 70%;
+    margin-left: 160px;
+    margin-top: 30px;
+}
+
+.history3 img {
+    width: 400px;
+    margin-right: 150px;
+}
 
 footer {
     margin-top: 20px;
