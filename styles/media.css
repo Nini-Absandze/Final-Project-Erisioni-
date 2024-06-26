@@ -372,3 +372,95 @@
         margin-left: 30%;
     }
 }
+
+@media screen and (max-width: 1350px) {
+    .history img {
+        margin-left: 100px;
+        width: 80%;
+    }
+
+    .history h2 {
+        margin-top: 40px;
+        margin-left: 550px;
+        font-size: 30px;
+    }
+
+    .history h4 {
+        width: 80%;
+        margin-left: 100px;
+        margin-top: 25px;
+    }
+    
+    .history2 {
+        width: 90%;
+        height: 45vh;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .history img {
+        margin-left: 150px;
+        width: 70%;
+    }
+
+    .history h2 {
+        margin-top: 30px;
+        margin-left: 450px;
+        font-size: 25px;
+    }
+
+    .history h4 {
+        width: 70%;
+        margin-left: 140px;
+        margin-top: 20px;
+    }
+    
+    .history2 {
+        width: 80%;
+        height: 40vh;
+        margin-top: 25px;
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .history h2 {
+        margin-top: 25px;
+        margin-left: 400px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .history img {
+        margin-left: 100px;
+        width: 70%;
+    }
+
+    .history h2 {
+        margin-top: 30px;
+        margin-left: 250px;
+        font-size: 25px;
+    }
+
+    .history h4 {
+        width: 70%;
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    
+    .history2 {
+        width: 80%;
+        height: 40vh;
+        margin-top: 25px;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .banner h1 {
+        font-size: 30px;
+    }
+}
