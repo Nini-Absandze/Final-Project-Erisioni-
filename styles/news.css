@@ -51,6 +51,12 @@ header {
     margin-right: 20px;
 }
 
+.left a {
+    font-family: 'Roboto', sans-serif;
+   font-size: 17px;
+   color: darkblue;
+}
+
 .left h4 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -81,13 +87,11 @@ header {
 .right a {
     font-family: 'Roboto', sans-serif;
    font-size: 17px;
-   background-color: gray;
-   height: 300vh;
-   color: black;
+   color: darkblue;
 }
 
 .right img {
-    width: 60%;
+    width: 55%;
 }
 
 .right h4 {
@@ -104,6 +108,34 @@ header {
     font-size: 15px;
     line-height: 21.84px;
     color: black;
+}
+
+.left a:hover {
+    color: black;
+    cursor: hover;
+ }
+
+ .right a:hover {
+    color: black;
+    cursor: hover;
+ }
+
+.left img {
+    transition: transform 0.3s ease-out;
+}
+
+.left img:hover {
+    cursor: pointer;
+    transform: scale(1.1) translateY(-30px);
+}
+
+.right img {
+    transition: transform 0.3s ease-out;
+}
+
+.right img:hover {
+    cursor: pointer;
+    transform: scale(1.1) translateY(-30px);
 }
 
 .concert1 {
@@ -136,7 +168,6 @@ header {
     width: 80%;
 
 }
-
 
 footer {
     margin-top: 20px;
