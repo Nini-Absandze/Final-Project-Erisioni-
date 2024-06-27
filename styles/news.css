@@ -180,6 +180,39 @@ header {
 
 }
 
+.news2 {
+    margin-top: 70px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.news2 img {
+    width: 50%;
+    margin-right: 50px;
+}
+
+.news2 h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 90.84px;
+    color: black;
+    margin-bottom: 40px;
+}
+
+.news2 p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21.84px;
+    color: black;
+    width: 90%;
+
+}
+
 footer {
     margin-top: 20px;
     background-color: black;
