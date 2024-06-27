@@ -1,3 +1,6 @@
+body {
+    background-color: #3b3b3b;
+}
 header {
     display: flex;
     align-items: center; 
@@ -43,7 +46,7 @@ header {
     font-weight: 700;
     font-size: 40px;
     line-height: 90.84px;
-    color: black;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,7 +68,7 @@ header {
 .left a {
     font-family: 'Roboto', sans-serif;
    font-size: 17px;
-   color: darkblue;
+   color: white;
 }
 
 .left h4 {
@@ -73,7 +76,7 @@ header {
     font-weight: 700;
     font-size: 20px;
     line-height: 90.84px;
-    color: black;
+    color: white;
 }
 
 .left p {
@@ -81,7 +84,7 @@ header {
     font-weight: 400;
     font-size: 15px;
     line-height: 21.84px;
-    color: black;
+    color: white;
 }
 
 .left img {
@@ -98,7 +101,7 @@ header {
 .right a {
     font-family: 'Roboto', sans-serif;
    font-size: 17px;
-   color: darkblue;
+   color: white;
 }
 
 .right img {
@@ -110,7 +113,7 @@ header {
     font-weight: 700;
     font-size: 20px;
     line-height: 90.84px;
-    color: black;
+    color: white;
 }
 
 .right p {
@@ -118,16 +121,16 @@ header {
     font-weight: 400;
     font-size: 15px;
     line-height: 21.84px;
-    color: black;
+    color: white;
 }
 
 .left a:hover {
-    color: black;
+    color: blue;
     cursor: hover;
  }
 
  .right a:hover {
-    color: black;
+    color: blue;
     cursor: hover;
  }
 
@@ -167,7 +170,7 @@ header {
     font-weight: 700;
     font-size: 40px;
     line-height: 90.84px;
-    color: black;
+    color: white;
 }
 
 .concert1 p {
@@ -175,7 +178,7 @@ header {
     font-weight: 400;
     font-size: 20px;
     line-height: 21.84px;
-    color: black;
+    color: white;
     width: 80%;
 
 }
@@ -199,7 +202,7 @@ header {
     font-weight: 700;
     font-size: 40px;
     line-height: 90.84px;
-    color: black;
+    color: white;
     margin-bottom: 40px;
 }
 
@@ -208,10 +211,18 @@ header {
     font-weight: 400;
     font-size: 20px;
     line-height: 21.84px;
-    color: black;
+    color: white;
     width: 90%;
-
 }
+
+.news2 a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21.84px;
+    color: white;
+    width: 90%;
+} 
 
 .news2 img {
     transition: transform 0.3s ease-out;
@@ -221,6 +232,163 @@ header {
     cursor: pointer;
     transform: scale(1.1) translateY(-80px);
 }
+
+.news3 h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 90.84px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.news3 {
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.lefts {
+    width: 45%;
+}
+
+.lefts a {
+    font-family: 'Roboto', sans-serif;
+   font-size: 17px;
+   color: white;
+}
+
+.lefts h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 90.84px;
+    color: white;
+}
+
+.lefts img {
+    margin-top: 25px;
+    width: 70%;
+}
+
+.rights {
+    margin-top: 25px;
+    width: 45%;
+}
+
+.rights a {
+    font-family: 'Roboto', sans-serif;
+   font-size: 17px;
+   color: white;
+}
+
+.rights img {
+    width: 70%;
+}
+
+.rights h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 90.84px;
+    color: white;
+}
+
+.lefts a:hover {
+    color: blue;
+    cursor: hover;
+ }
+
+ .rights a:hover {
+    color: blue;
+    cursor: hover;
+ }
+
+.lefts img {
+    transition: transform 0.3s ease-out;
+}
+
+.lefts img:hover {
+    cursor: pointer;
+    transform: scale(1.1) translateY(-30px);
+}
+
+.rights img {
+    transition: transform 0.3s ease-out;
+}
+
+.rights img:hover {
+    cursor: pointer;
+    transform: scale(1.1) translateY(-30px);
+}
+
+.concert2 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+
+.concert2 img {
+    width: 80%;
+}
+
+.concert2 h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 90.84px;
+    color: white;
+}
+
+.concert2 p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21.84px;
+    color: white;
+    width: 80%;
+
+}
+
+.concert3 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+
+.concert3 img {
+    width: 80%;
+}
+
+.concert3 h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 90.84px;
+    color: white;
+}
+
+.concert3 p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21.84px;
+    color: white;
+    width: 80%;
+
+}
+
 
 footer {
     margin-top: 20px;
