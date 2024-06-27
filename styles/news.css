@@ -38,8 +38,19 @@ header {
     color: #636060; 
 } 
 
+.newss h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 90.84px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .news1 {
+    margin-left: 50px;
     display: flex;
     flex-direction: row;
     justify-content: center;
