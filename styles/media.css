@@ -583,4 +583,44 @@
  
 }
 
+@media screen and (max-width: 1300px) {
+    .concert1 h4 {
+        font-size: 35px;
+    }
+ 
+}
+
+@media screen and (max-width: 1100px) {
+    .concert1 h4 {
+        font-size: 25px;
+    }
+ 
+}
+
+@media screen and (max-width: 800px) {
+    .concert1 h4 {
+        font-size: 20px;
+    }
+ 
+}
+
+@media screen and (max-width: 650px) {
+    .concert1 h4 {
+        font-size: 18px;
+    }
+
+    .concert1 p {
+        font-size: 14px;
+    }
+ 
+}
+
+@media screen and (max-width: 650px) {
+    .concert1 h4 {
+        width: 90%;
+        font-size: 15px;
+        margin-left: 60px;
+    }
+
+}
 
