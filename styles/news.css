@@ -213,6 +213,15 @@ header {
 
 }
 
+.news2 img {
+    transition: transform 0.3s ease-out;
+}
+
+.news2 img:hover {
+    cursor: pointer;
+    transform: scale(1.1) translateY(-80px);
+}
+
 footer {
     margin-top: 20px;
     background-color: black;
