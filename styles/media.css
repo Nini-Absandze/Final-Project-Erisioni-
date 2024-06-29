@@ -169,15 +169,15 @@
 
 @media screen and (max-width: 1450px) {
     
-.left h2 {
+.left123 h2 {
     font-size: 13px;
 }
 
-.left p {
+.left123 p {
     font-size: 10px;
 }
 
-.right h2 {
+.right123 h2 {
     font-size: 13px;
 }
 
@@ -233,11 +233,11 @@
 
 @media screen and (max-width: 550px) {
     
-    .left h2 {
+    .left123 h2 {
         font-size: 7px;
     }
     
-    .right h2 {
+    .right123 h2 {
         font-size: 7px;
     }
 
@@ -249,19 +249,19 @@
 
 @media screen and (max-width: 550px) {
     
-    .left h2 {
+    .left123 h2 {
         font-size: 6px;
     }
     
-    .right h2 {
+    .right123 h2 {
         font-size: 6px;
     }
 
-    .right p {
+    .right123 p {
         font-size: 6px;
     }
 
-    .left p {
+    .left123 p {
         font-size: 6px;
     }
 
@@ -272,31 +272,31 @@
 }
 
 @media screen and (max-width: 550px) {
-    .left img {
+    .left123 img {
         margin-left: 10px;
         width: 80%;
     }
 
-    .right img {
+    .right123 img {
         margin-left: 10px;
         width: 80%;
     }
 
-    .right {
+    .right123 {
         margin-left: 15px;
     }
 }
 
 @media screen and (max-width: 550px) {
-    .left img {
+    .left123 img {
         margin-left: 9px;
     }
 
-    .right img {
+    .right123 img {
         margin-left: 9px;
     }
 
-    .right {
+    .right123 {
         margin-left: 15px;
     }
 }
@@ -725,24 +725,24 @@
 }
 
 @media screen and (max-width: 1350px) {
-    .left123 h4 {
+    .left h4 {
         font-size: 15px;
         
     }
 
-    .right123 h4 {
+    .right h4 {
         font-size: 15px;
         
     }
 }
 
 @media screen and (max-width: 1060px) {
-    .left123 h4 {
+    .left h4 {
         font-size: 13px;
         
     }
 
-    .right123 h4 {
+    .right h4 {
         font-size: 13px;
         
     }
@@ -757,60 +757,60 @@
         align-items: center;
     }
 
-    .left123 {
+    .left {
         width: 80%;
     }
 
-    .left123 h4 {
+    .left h4 {
         font-size: 20px;
     }
 
-    .left123 p {
+    .left p {
         font-size: 20px;
     }
 
-    .right123 {
+    .right {
         margin-top: 50px;
         width: 80%;
         margin-left: 0;
     }
 
 
-    .right123 img {
+    .right img {
         width: 80%;
     }
 
-    .right123 h4 {
+    .right h4 {
         font-size: 20px;
     }
 
-    .right123 p {
+    .right p {
         font-size: 20px;
     }
 }
 
 @media screen and (max-width: 800px) {
-    .left123 h4 {
+    .left h4 {
         font-size: 15px;
     }
-    .right123 h4 {
+    .right h4 {
         font-size: 15px;
     }
 
 }
 
 @media screen and (max-width: 650px) {
-    .left123 h4 {
+    .left h4 {
         font-size: 12px;
     }
-    .right123 h4 {
+    .right h4 {
         font-size: 12px;
     }
 
-    .left123 p {
+    .left p {
         font-size: 10px;
     }
-    .right123 p {
+    .right p {
         font-size: 10px;
     }
 
