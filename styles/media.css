@@ -1004,4 +1004,13 @@
     }
 }
 
+@media screen and (max-width: 1000px) {
+    .dances h2 {
+        font-size: 25px;
+    }
+}
+
+
+
+
 
