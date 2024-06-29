@@ -185,3 +185,14 @@ footer {
     color: blue;
     cursor: hover;
  }
+ 
+ .forlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.forlogo img {
+    height: 15vh;
+}
