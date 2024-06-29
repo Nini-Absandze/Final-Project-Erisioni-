@@ -113,11 +113,11 @@ header {
     color: white;
 }
 
-.box1 {
+.box123 {
     margin-left: 60px;
 }
 
-.box1 img {
+.box123 img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -132,7 +132,7 @@ header {
        object-fit: cover;
 }
 
-.box1 h4 {
+.box123 h4 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
