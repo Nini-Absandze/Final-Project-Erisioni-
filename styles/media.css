@@ -35,9 +35,11 @@
 
 @media screen and (max-width: 400px) {
     .logo {
-        width: 15%;
+        margin-left: 40px;
+        width: 25%;
     }
 }
+
 
 @media screen and (max-width: 900px) {
     h1 {
@@ -95,17 +97,16 @@
 
 @media screen and (max-width: 300px) {
     .box img {
-        width: 80%;
+        width: 70%;
         height: 195px;
-        object-fit: cover;
     }
 
     .box h4 {
-        font-size: 15px;
+        font-size: 12px;
     }
     
     .box p {
-        font-size: 9px;
+        font-size: 8px;
     }
 
     
@@ -149,6 +150,23 @@
     } 
 }
 
+@media screen and (max-width: 400px) {
+    .box1 {
+        margin-top: 25px;
+        width: 300px;
+        height: 180hv;
+    } 
+}
+
+@media screen and (max-width: 300px) {
+    .box1 {
+        margin-top: 25px;
+        width: 250px;
+        height: 150hv;
+    } 
+
+}
+
 @media screen and (max-width: 1450px) {
     
 .left h2 {
@@ -169,7 +187,7 @@
 
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 970px) {
     
     .left h2 {
         font-size: 10px;
@@ -186,10 +204,101 @@
     .right p {
         font-size: 7px;
     }
+
     .cards a {
-    font-size: 13px;
+    font-size: 10px;
     }
 
+}
+
+@media screen and (max-width: 700px) {
+    
+    .left h2 {
+        font-size: 8px;
+    }
+    
+    .right h2 {
+        font-size: 8px;
+    }
+    
+    .cards a {
+    font-size: 10px;
+    }
+
+    .name a {
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    
+    .left h2 {
+        font-size: 7px;
+    }
+    
+    .right h2 {
+        font-size: 7px;
+    }
+
+    .name a {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    
+    .left h2 {
+        font-size: 6px;
+    }
+    
+    .right h2 {
+        font-size: 6px;
+    }
+
+    .right p {
+        font-size: 6px;
+    }
+
+    .left p {
+        font-size: 6px;
+    }
+
+    .name a {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .left img {
+        margin-left: 10px;
+        width: 80%;
+    }
+
+    .right img {
+        margin-left: 10px;
+        width: 80%;
+    }
+
+    .right {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .left img {
+        margin-left: 9px;
+    }
+
+    .right img {
+        margin-left: 9px;
+    }
+
+    .right {
+        margin-left: 15px;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -199,10 +308,17 @@
     } 
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
     .afishebi img  {
         width: 30%;
         margin-left: 11px;
+    } 
+}
+
+@media screen and (max-width: 420px) {
+    .afishebi img  {
+        width: 30%;
+        margin-left: 5px;
     } 
 }
 
@@ -213,12 +329,9 @@
     
 }
 
-@media screen and (max-width: 1000px) {
-    footer {
-        height: 900px;
-    }
 
-    .flex {
+@media screen and (max-width: 930px) {
+    .foot {
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -227,19 +340,9 @@
     
 }
 
+
 @media screen and (max-width: 750px) {
-    footer {
-        height: 1600px;
-    }
-
-    .right2 {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 45px;
-    }
-
-    .flex {
+    .foot {
         align-items: center;
         justify-content: center;
         gap: 40px;
@@ -247,23 +350,13 @@
     
 }
 
+
 @media screen and (max-width: 650px) {
     footer {
-        height: 2000px;
-    }
-
-    .navs h4 {
-        font-family: 'Roboto', sans-serif;
-        font-size: 10px;
-        background-color: white;
-      }
-}
-
-@media screen and (max-width: 500px) {
-    footer {
-        height: 2500px;
+        height: 1500px;
     }
 }
+
 
 @media screen and (max-width: 1270px) {
     .contact {
@@ -538,7 +631,7 @@
         margin-top: 30px;
     }
     
-.history3 h4 {
+    .history3 h4 {
     width: 90%;
     margin-left: 100px;
     margin-top: 30px;
@@ -632,24 +725,24 @@
 }
 
 @media screen and (max-width: 1350px) {
-    .left h4 {
+    .left123 h4 {
         font-size: 15px;
         
     }
 
-    .right h4 {
+    .right123 h4 {
         font-size: 15px;
         
     }
 }
 
 @media screen and (max-width: 1060px) {
-    .left h4 {
+    .left123 h4 {
         font-size: 13px;
         
     }
 
-    .right h4 {
+    .right123 h4 {
         font-size: 13px;
         
     }
@@ -664,60 +757,60 @@
         align-items: center;
     }
 
-    .left {
+    .left123 {
         width: 80%;
     }
 
-    .left h4 {
+    .left123 h4 {
         font-size: 20px;
     }
 
-    .left p {
+    .left123 p {
         font-size: 20px;
     }
 
-    .right {
+    .right123 {
         margin-top: 50px;
         width: 80%;
         margin-left: 0;
     }
 
 
-    .right img {
+    .right123 img {
         width: 80%;
     }
 
-    .right h4 {
+    .right123 h4 {
         font-size: 20px;
     }
 
-    .right p {
+    .right123 p {
         font-size: 20px;
     }
 }
 
 @media screen and (max-width: 800px) {
-    .left h4 {
+    .left123 h4 {
         font-size: 15px;
     }
-    .right h4 {
+    .right123 h4 {
         font-size: 15px;
     }
 
 }
 
 @media screen and (max-width: 650px) {
-    .left h4 {
+    .left123 h4 {
         font-size: 12px;
     }
-    .right h4 {
+    .right123 h4 {
         font-size: 12px;
     }
 
-    .left p {
+    .left123 p {
         font-size: 10px;
     }
-    .right p {
+    .right123 p {
         font-size: 10px;
     }
 
