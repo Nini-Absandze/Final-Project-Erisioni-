@@ -2,9 +2,15 @@ body {
     background-color: #3b3b3b;
 }
 header {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center; 
-    justify-content: space-between; 
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; 
+    -webkit-box-pack: justify; 
+        -ms-flex-pack: justify; 
+            justify-content: space-between; 
     padding: 10px; 
     background-color: black;
 }
@@ -16,6 +22,8 @@ header {
 }
 
 .flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-right: 70px;
     gap: 40px;
@@ -47,17 +55,32 @@ header {
     font-size: 40px;
     line-height: 90.84px;
     color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .news1 {
     margin-left: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .left {
@@ -135,29 +158,50 @@ header {
  }
 
 .left img {
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+    transition: -webkit-transform 0.3s ease-out;
+    -o-transition: transform 0.3s ease-out;
     transition: transform 0.3s ease-out;
+    transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
 }
 
 .left img:hover {
     cursor: pointer;
-    transform: scale(1.1) translateY(-30px);
+    -webkit-transform: scale(1.1) translateY(-30px);
+        -ms-transform: scale(1.1) translateY(-30px);
+            transform: scale(1.1) translateY(-30px);
 }
 
 .right img {
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+    transition: -webkit-transform 0.3s ease-out;
+    -o-transition: transform 0.3s ease-out;
     transition: transform 0.3s ease-out;
+    transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
 }
 
 .right img:hover {
     cursor: pointer;
-    transform: scale(1.1) translateY(-30px);
+    -webkit-transform: scale(1.1) translateY(-30px);
+        -ms-transform: scale(1.1) translateY(-30px);
+            transform: scale(1.1) translateY(-30px);
 }
 
 .concert1 {
     margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-bottom: 45px;
 }
 
@@ -186,10 +230,19 @@ header {
 .news2 {
     margin-top: 70px;
     margin-left: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .news2 img {
@@ -225,21 +278,36 @@ header {
 } 
 
 .news2 img {
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+    transition: -webkit-transform 0.3s ease-out;
+    -o-transition: transform 0.3s ease-out;
     transition: transform 0.3s ease-out;
+    transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
 }
 
 .news2 img:hover {
     cursor: pointer;
-    transform: scale(1.1) translateY(-80px);
+    -webkit-transform: scale(1.1) translateY(-80px);
+        -ms-transform: scale(1.1) translateY(-80px);
+            transform: scale(1.1) translateY(-80px);
 }
 
 .news3 {
     margin-top: 50px;
     margin-left: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .lefts {
@@ -299,29 +367,50 @@ header {
  }
 
 .lefts img {
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+    transition: -webkit-transform 0.3s ease-out;
+    -o-transition: transform 0.3s ease-out;
     transition: transform 0.3s ease-out;
+    transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
 }
 
 .lefts img:hover {
     cursor: pointer;
-    transform: scale(1.1) translateY(-30px);
+    -webkit-transform: scale(1.1) translateY(-30px);
+        -ms-transform: scale(1.1) translateY(-30px);
+            transform: scale(1.1) translateY(-30px);
 }
 
 .rights img {
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+    transition: -webkit-transform 0.3s ease-out;
+    -o-transition: transform 0.3s ease-out;
     transition: transform 0.3s ease-out;
+    transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
 }
 
 .rights img:hover {
     cursor: pointer;
-    transform: scale(1.1) translateY(-30px);
+    -webkit-transform: scale(1.1) translateY(-30px);
+        -ms-transform: scale(1.1) translateY(-30px);
+            transform: scale(1.1) translateY(-30px);
 }
 
 .concert2 {
     margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-bottom: 45px;
 }
 
@@ -349,10 +438,19 @@ header {
 
 .concert3 {
     margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-bottom: 45px;
 }
 
